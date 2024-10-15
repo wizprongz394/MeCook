@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#000000</color>  <!-- Solid black -->
+    <color name="white">#FFFFFF</color>  <!-- Solid white -->
+    <color name="gray">#301818</color>   <!-- Medium gray for hint text -->
+    <color name="light_gray">#D3D3D3</color> <!-- Light gray for backgrounds or borders -->
+    <color name="primary_color">#ff9f09</color>  <!-- Primary color from your palette -->
+    <color name="secondary_color">#feb130</color> <!-- Secondary color -->
+    <color name="accent_color">#fdc360</color>  <!-- Accent color for highlights -->
+    <color name="background_color">#fbe6b5</color>  <!-- Background color -->
+    <color name="button_color">#FF5722</color>  <!-- Button tint -->
+</resources>

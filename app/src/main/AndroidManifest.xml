@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.mecook">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/meecook2ic"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/mecook2roundic"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MeCook"
+        tools:targetApi="31">
+
+        <!-- Splash Screen Activity -->
+        <activity
+            android:name=".SplashScreenActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Main Activity -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+
+        <!-- Edit Recipe Activity -->
+        <activity
+            android:name=".EditRecipeActivity"
+            android:exported="false" />
+
+        <!-- Recipe Detail Activity -->
+        <activity
+            android:name=".RecipeDetailActivity"
+            android:exported="false" />
+
+        <!-- Add Recipe Activity -->
+        <activity
+            android:name=".AddRecipeActivity"
+            android:exported="false" />
+
+    </application>
+
+</manifest>

@@ -1,0 +1,12 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MeCook" parent="Theme.Material3.DayNight.NoActionBar">
+
+    </style>
+
+    <style name="Theme.MeCook" parent="Base.Theme.MeCook" />
+    <style name="SearchViewStyle" parent="Widget.AppCompat.SearchView">
+        <item name="android:textColor">#170A0A</item>   <!-- Typed Text Color -->
+        <item name="android:textColorHint">#170A0A</item>  <!-- Hint Color for XML compatibility -->
+    </style>
+</resources>

@@ -1,0 +1,59 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffe5b4"
+    android:padding="16dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/saveRecipeButton"> <!-- Position ScrollView above the Save button -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/recipeName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Recipe Name"
+                android:textColor="#930F49"
+                android:textColorHint="#CC8C88"
+                android:minHeight="48dp" />
+
+            <EditText
+                android:id="@+id/recipeIngredients"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Ingredients"
+                android:textColor="#930F49"
+
+                android:textColorHint="#CC8C88"
+                android:minHeight="48dp" />
+
+            <EditText
+                android:id="@+id/recipeSteps"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Steps"
+                android:textColor="#930F49"
+
+                android:textColorHint="#CC8C88"
+                android:minHeight="48dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/saveRecipeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save Recipe"
+        android:backgroundTint="#71cb90"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+    android:layout_marginBottom="16dp"/> <!-- Margin from bottom for spacing -->
+
+</RelativeLayout>
